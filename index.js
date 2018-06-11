@@ -10,9 +10,9 @@ function setCart(c) {
 }
 
 function addToCart(item) {
-  price = Math.floor(Math.random())
+  price = Math.floor((Math.random() *100) +1)
   var obj = {itemName: item, itemPrice: price}
-  return 
+  return
  // write your code here
 }
 
